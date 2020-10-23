@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43c64858-91b6-4013-b835-2e83a617fb67" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1jGzqbrq8AcbeBHBTOPs5mrpHIt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43c64858-91b6-4013-b835-2e83a617fb67" name="Default Changelist" comment="" />
+      <created>1603445407558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603445407558</updated>
+      <workItem from="1603445409905" duration="816000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="77" key="#File_Watchers" timestamp="1603446202014">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="77" key="#File_Watchers/0.0.1536.834@0.0.1536.834" timestamp="1603446202014" />
+    <state x="361" y="77" key="#Notifications" timestamp="1603446196002">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="77" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1603446196002" />
+    <state x="437" y="169" width="660" height="665" key="EditFileWatcherDialog" timestamp="1603446171581">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="437" y="169" width="660" height="665" key="EditFileWatcherDialog/0.0.1536.834@0.0.1536.834" timestamp="1603446171581" />
+    <state x="548" y="165" key="FileChooserDialogImpl" timestamp="1603445610477">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="548" y="165" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1603445610477" />
+    <state x="277" y="61" key="SettingsEditor" timestamp="1603446175353">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="277" y="61" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1603446175353" />
+  </component>
+</project>
