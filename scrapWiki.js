@@ -27,12 +27,17 @@ const scrapText = async (url) => {
   await rp(url)
     .then(async function (html) {
       strings = strings
-        .concat($("p", html).text())
-        .replace(/(<([^>]+)>)/gi, "");
-      await fs.appendFile(`text.txt`, strings, function (err) {
+        .concat($("p, span, #text", html).text())
+        .replace(/(<([^>]+)>)/gi, "")
+        .replace(/\s+/g, " ")
+        .replace(/[0-9]/g, "")
+        .trim();
+      fs.appendFile(`text.txt`, strings, function (err) {
         if (err) console.log(`Error ${url}`);
         console.log(`Done ${url}`);
-        scrapLink(html);
+        if ($("a", html) !== undefined) {
+          scrapLink($("a", html));
+        }
       });
     })
     .catch(function (err) {
@@ -40,12 +45,11 @@ const scrapText = async (url) => {
     });
 };
 
-const scrapLink = async (html) => {
-  const links = $("a", html);
+const scrapLink = async (links) => {
   for (let i = 0; i < links.length; i++) {
     if (pattern.test(links[i].attribs.href)) {
       if (!scrappedLinks.includes(links[i].attribs.href)) {
-        await scrapText(links[i].attribs.href);
+        scrapText(links[i].attribs.href);
       }
     }
   }
