@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon scrapWiki"
+    "test": "nodemon scrapWiki",
+    "pro": "node PROscrapp.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "express": "^4.17.1",
     "file-saver": "^2.0.2",
     "nodemon": "^2.0.6",
+    "puppeteer": "^5.4.0",
     "request": "^2.88.2",
     "request-promise": "^4.2.6"
   }
