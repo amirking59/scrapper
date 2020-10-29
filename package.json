@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon scrapWiki",
-    "pro": "node PROscrapp.js"
+    "test": "nodemon staticScrapp.js",
+    "pro": "node PROscrapp.js",
+    "insta": "node insta.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "csv-writer": "^1.6.0",
+    "excel4node": "^1.7.2",
     "express": "^4.17.1",
     "file-saver": "^2.0.2",
     "nodemon": "^2.0.6",
